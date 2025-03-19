@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
+    background-color: #df44a6;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
@@ -21,17 +22,17 @@ nav {
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 
@@ -41,6 +42,33 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+}
+
+h2 {
+    color: #df44a6;
+}
+
+ul#repo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#repo-list li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #df44a6;
+    border-radius: 5px;
+}
+
+ul#repo-list li a {
+    color: #df44a6;
+    text-decoration: none;
+}
+
+ul#repo-list li p {
+    margin: 5px 0 0;
+    color: #666;
 }
 
 table {
