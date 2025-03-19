@@ -1,0 +1,21 @@
+{
+  "name": "public-website",
+  "version": "1.0.0",
+  "description": "A public website that serves as a table of contents for repositories under the account.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step can be added here'"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "website",
+    "repository",
+    "table of contents"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
