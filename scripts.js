@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(repos => {
             repos.forEach(repo => {
-                if (repo.has_pages && !repo.name.startsWith('x')) {
+                if (repo.has_pages && !repo.name.startsWith('x') && repo.name !== 'examples') {
                     const listItem = document.createElement('li');
                     const link = document.createElement('a');
                     link.href = `https://${repo.owner.login}.github.io/${repo.name}`;
